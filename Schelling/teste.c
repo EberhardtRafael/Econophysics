@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+
+int main(){
+
+
+int a[10], b[10], c[10];
+
+	for(int i = 0; i < 10; i++){
+		a[i] = i;
+		b [i] = 2;
+	}
+	
+	c = a*b;
+	
+	
+
+return 0;
+
+}
